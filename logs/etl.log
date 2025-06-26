@@ -1,0 +1,7 @@
+2025-06-22 17:30:33,109 - INFO - Initiating Bitcoin pipeline from Investidor10...
+2025-06-22 17:30:33,115 - ERROR - 🚫 EXTRACTION failed to retrieve json: HTTPSConnectionPool(host='investidor10.com.br', port=443): Max retries exceeded with url: /api/criptomoedas/cotacoes/1/30/dollar (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xfff48c07e310>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-06-22 17:30:33,117 - WARNING - ⚠️  Pipeline execution stopped due failure on extraction
+2025-06-22 17:30:33,118 - INFO - ✅ Bitcoin pipeline completed!
+2025-06-22 17:30:33,121 - INFO - ----------------------------------------------------------------------------------------------------
+2025-06-23 22:25:04,810 - INFO - Transforming data from /Volumes/workspace/landing/bitcoin to /Volumes/workspace/processed/bitcoin
+2025-06-23 22:25:09,871 - INFO - Processing completed!
